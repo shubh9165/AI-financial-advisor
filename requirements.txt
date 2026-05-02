@@ -12,3 +12,4 @@ langchain-groq
 streamlit
 pypdf
 sentence-transformers
+torchvision
