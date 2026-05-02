@@ -7,11 +7,18 @@ from langchain_classic.chains.retrieval import create_retrieval_chain
 from langchain_core.prompts import ChatPromptTemplate                         
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+import steamlit as st
 import os
 
 load_dotenv()
-os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
-os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
+try:
+    os.environ['HF_TOKEN'] = st.secrets["HF_TOKEN"]
+    os.environ['GROQ_API_KEY'] = st.secrets["GROQ_API_KEY"]
+except KeyError:
+    # Fallback to .env file for local development
+    os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN', '')
+    os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY', '')
+
 
 
 def create_rag_chain():
