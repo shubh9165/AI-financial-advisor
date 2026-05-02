@@ -1,0 +1,12 @@
+yfinance
+langchain
+python-dotenv
+ipykernel
+langchain-community
+langchain-text-splitters
+langchain_huggingface
+faiss-cpu
+langchain_chroma
+pandas
+langchain-groq
+streamlit
