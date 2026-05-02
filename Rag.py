@@ -11,13 +11,9 @@ import streamlit as st
 import os
 
 load_dotenv()
-try:
-    os.environ['HF_TOKEN'] = st.secrets["HF_TOKEN"]
-    os.environ['GROQ_API_KEY'] = st.secrets["GROQ_API_KEY"]
-except KeyError:
-    # Fallback to .env file for local development
-    os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN', '')
-    os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY', '')
+
+os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
+os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
 
 
 

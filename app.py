@@ -31,4 +31,4 @@ if user_input := st.chat_input("Ask about any stock or investment..."):
             st.write(answer)
 
     st.session_state.messages.append({"role": "user", "content": user_input})
-    st.session_state.messages.append({"role": "assistant", "content": response})
+    st.session_state.messages.append({"role": "assistant", "content": answer})
