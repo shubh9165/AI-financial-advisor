@@ -22,7 +22,7 @@ def get_session_history(session_id:str)->BaseChatMessageHistory:
 def create_agent():
     llm = ChatGroq(model="llama-3.1-8b-instant") 
 
-    tools=[seach_knowalge,get_stock_data]
+    tools=[search_knowalge,get_stock_data]
 
     prompt = ChatPromptTemplate.from_messages([
             ("system", """You are an expert AI financial advisor specializing in Indian stock markets and global investments.
