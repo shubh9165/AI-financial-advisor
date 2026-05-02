@@ -48,7 +48,7 @@ def get_stock_data(ticker: str) -> str:
 rag_chain=create_rag_chain()
 
 @tool
-def seach_knowalge(query):
+def search_knowalge(query):
     """ Search  Zerodha Varsity knowledge base for financial concept
         PE ratio,fundamental analysis and stock market basic """
     

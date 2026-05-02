@@ -37,7 +37,7 @@ def create_agent():
     1. For stock prices, valuations, or technical data → Call get_stock_data tool with the ticker symbol
     - Examples: "RELIANCE.NS" for Reliance, "TCS.NS" for TCS, "AAPL" for Apple
     
-    2. For financial concepts, strategies, or educational questions → Call seach_knowalge tool
+    2. For financial concepts, strategies, or educational questions → Call search_knowalge tool
     - Examples: PE ratio explanation, fundamental analysis methods, market basics
     
     3. ALWAYS use tools - never give generic answers without data
