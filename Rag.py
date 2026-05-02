@@ -7,7 +7,7 @@ from langchain_classic.chains.retrieval import create_retrieval_chain
 from langchain_core.prompts import ChatPromptTemplate                         
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
-import steamlit as st
+import streamlit as st
 import os
 
 load_dotenv()
