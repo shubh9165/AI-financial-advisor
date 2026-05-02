@@ -1,4 +1,4 @@
-from tools import seach_knowalge,get_stock_data
+from tools import search_knowalge,get_stock_data
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from langchain_classic.agents import create_openai_tools_agent
