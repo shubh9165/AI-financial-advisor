@@ -179,9 +179,9 @@ This tool is for **educational purposes only** and does not constitute professio
 
 ## 🙋 Author
 
-**Amardeep**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [your linkedin](https://linkedin.com/in/yourprofile)
+**shubh patel**
+- GitHub: [@shubh9165](https://github.com/shubh9165)
+
 
 ---
 
