@@ -6,7 +6,7 @@ An intelligent financial advisor powered by **LangChain**, **Groq (Llama 3.3)**,
 
 ## 🚀 Live Demo
 
-> [Add your HuggingFace Spaces or Render link here]
+> https://ai-financial-advisor-6jahpdgjkrfawskmm9sznh.streamlit.app/
 
 ---
 
